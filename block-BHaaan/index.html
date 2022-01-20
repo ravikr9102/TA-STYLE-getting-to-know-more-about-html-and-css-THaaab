@@ -1,0 +1,73 @@
+<!---
+
+### Create a blog page having 2 articles.
+
+#### TODO 🚀:
+
+1. Create a blog page having 2 articles.
+2. The sample structure of a page has been shown below.
+
+---
+
+![alt text](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/html-css/ex3.png)
+
+---
+
+- Using a CSS reset is necessary.
+
+- Use appropriate semantic tags and keep the nesting and indentation clean.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Blog</a>
+        </nav>
+    </header>
+    <main>
+        <section class="blog">
+            <article>
+                <div class="time">
+                    <time datetime="25-11-2015">November 25 2015</time>
+                </div>
+                <div>
+                    <img src="_111434468_gettyimages-1143489763.jpg" alt="Cat">
+                </div>
+                <h2 class="heading">This Is my First Article</h2>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aut optio consequuntur unde natus quaerat accusantium dicta? Amet nulla neque est cumque laborum ipsam, molestias libero debitis inventore odit saepe?</p>
+                <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste et facilis architecto, modi tenetur eius, dolorum perferendis quibusdam maiores numquam hic. Dicta aliquid totam ratione sed, pariatur voluptas blanditiis praesentium!</p>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dicta distinctio libero maxime, aliquid sit tempore repellendus, repellat sunt saepe aut dolores aspernatur recusandae ea error et optio velit? Perspiciatis?</p>
+                <a href="#">READ MORE</a>
+                <hr>
+            </article>
+            <article>
+                <div class="time">
+                    <time datetime="25-12-2015">December 25 2015</time>
+                </div>
+                <div>
+                    <img src="100691619-what-is-cat-fostering-632x475.jpg" alt="Cat">
+                </div>
+                <h2 class="heading">This Is Another Article</h2>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aut optio consequuntur unde natus quaerat accusantium dicta? Amet nulla neque est cumque laborum ipsam, molestias libero debitis inventore odit saepe?</p>
+                <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste et facilis architecto, modi tenetur eius, dolorum perferendis quibusdam maiores numquam hic. Dicta aliquid totam ratione sed, pariatur voluptas blanditiis praesentium!</p>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dicta distinctio libero maxime, aliquid sit tempore repellendus, repellat sunt saepe aut dolores aspernatur recusandae ea error et optio velit? Perspiciatis?</p>
+                <a href="#">READ MORE</a>
+            </article>
+        </section>
+    </main>
+    <footer class="footer">
+        <small>&copy; AltCampus 2019</small>
+    </footer>
+</body>
+</html>
